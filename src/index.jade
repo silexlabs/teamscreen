@@ -1,0 +1,13 @@
+doctype html
+html(lang="en")
+    head
+        title= "Dashboard tests"
+        link(rel="stylesheet", type='text/css', href='style.min.css')
+        script(type='text/javascript', src='libs/jquery-1.10.2.min.js')
+        script(type='text/javascript', src='app.min.js')
+    body
+        script(type='text/javascript').
+            $(document).ready(function(){
+                new App();
+            });
+

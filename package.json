@@ -1,0 +1,12 @@
+{
+  "name": "Dashboard",
+  "version": "1.0.0",
+  "devDependencies": {
+    "grunt-append-sourcemapping": "*",
+    "grunt-contrib-uglify": "*",
+    "grunt-contrib-less": "*",
+    "grunt-contrib-watch": "*",
+    "grunt-contrib-jade": "*",
+    "grunt-contrib-connect": "*"
+  }
+}

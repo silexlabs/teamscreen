@@ -1,0 +1,11 @@
+*.js.map
+*.swf
+*.sublime-project
+*.sublime-workspace
+*.DS_Store
+.temp
+.cache
+node_modules
+dist/index.html
+dist/app.min.js
+dist/style.min.css
