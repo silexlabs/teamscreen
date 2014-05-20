@@ -2,6 +2,10 @@
 
 Uses:
 
+* run as a nodejs server
+
+  $ grunt run
+
 * check syntax with *lint, compile with google closure builder/compiler
 
   $ grunt deploy
@@ -23,6 +27,8 @@ module.exports = function(grunt) {
   grunt.registerTask('deploy', ['uglify', 'less', 'jade']);
 
   grunt.registerTask('default', ['deploy', 'connect', 'watch']);
+
+  grunt.registerTask('run', ['deploy', 'connect']);
 
   // Project configuration.
   grunt.initConfig({
