@@ -27,11 +27,11 @@
   "dependencies": {
     "express": "~3.4.4",
     "grunt-append-sourcemapping": "*",
-    "grunt-contrib-uglify": "*",
-    "grunt-contrib-less": "*",
-    "grunt-contrib-watch": "*",
+    "grunt-contrib-connect": "*",
     "grunt-contrib-jade": "*",
-    "grunt-contrib-connect": "*"
+    "grunt-contrib-less": "*",
+    "grunt-contrib-uglify": "*",
+    "grunt-contrib-watch": "*",
   },
   "devDependencies": {},
   "bundleDependencies": [],

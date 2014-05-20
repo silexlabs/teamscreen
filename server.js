@@ -132,6 +132,7 @@ var SampleApp = function() {
 
         // Create the express server and routes.
         self.initializeServer();
+        // app.use(express.static(__dirname + '/dist'));
     };
 
 
