@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #!/bin/env node
 //  OpenShift sample Node application
 var express = require('express');
