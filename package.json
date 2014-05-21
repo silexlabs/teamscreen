@@ -25,11 +25,10 @@
     "grunt-contrib-jade": "*",
     "grunt-contrib-less": "*",
     "grunt-contrib-uglify": "*",
-    "grunt-contrib-watch": "*",
+    "grunt-contrib-watch": "*"
   },
   "devDependencies": {},
   "bundleDependencies": [],
-
   "private": true,
   "main": "server.js"
 }
