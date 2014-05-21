@@ -1,4 +1,8 @@
 {
+  "engines": {
+    "node": ">= 0.10.21",
+    "npm": ">= 1.4.10"
+  },
   "name": "OpenShift-Sample-App",
   "version": "1.0.0",
   "description": "OpenShift Sample Application",
