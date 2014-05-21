@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #!/bin/env node
 //  OpenShift sample Node application
 var express = require('express');
@@ -95,7 +94,7 @@ var SampleApp = function() {
      */
     self.createRoutes = function() {
         self.routes = { };
-
+        return;
         self.routes['/asciimo'] = function(req, res) {
             var link = "http://i.imgur.com/kmbjB.png";
             res.send("<html><body><img src='" + link + "'></body></html>");
@@ -115,6 +114,7 @@ var SampleApp = function() {
     self.initializeServer = function() {
         self.createRoutes();
         self.app = express.createServer();
+        self.app.use(express.static(__dirname + '/dist'));
 
         //  Add handlers for the app (from the routes).
         for (var r in self.routes) {
@@ -128,12 +128,11 @@ var SampleApp = function() {
      */
     self.initialize = function() {
         self.setupVariables();
-        self.populateCache();
+        // self.populateCache();
         self.setupTerminationHandlers();
 
         // Create the express server and routes.
         self.initializeServer();
-        // app.use(express.static(__dirname + '/dist'));
     };
 
 
