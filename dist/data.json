@@ -1,7 +1,21 @@
 {
     "urls": [
-        "monitis.html",
-        "https://zabbix.ebz.io/screens.php?ddreset=1&sid=d71d58e3393c8c64",
-        "https://jenkins.ebuzzing.com/job/_Doc/ws/qa_console_format.html"
+        {
+          "url": "http://influx.is/PPZWKZ"
+          , "refresh": false
+        }
+        , {
+          "url": "http://www.tweetbeam.com/show?query=%23WWX2014"
+          , "refresh": false
+        }
+        , {
+          "url": "http://bluenod.com/map/wwx2014"
+          , "refresh": false
+        }
+        , {
+          "url": "wwx-schedule.html"
+          , "refresh": false
+        }
     ]
+
 }
